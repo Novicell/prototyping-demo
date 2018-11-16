@@ -7,26 +7,13 @@
                 "heading": {
                     "text": "Get started"
                 },
-                "iconBoxContent": "Follow the guide to get started with prototyping",
+                "iconBoxContent": "Follow the guide to get started with prototyping.",
                 "svgIconName": "icon-box",
                 "link": {
                     "url": "#",
                     "text": "Go to the guide",
                     "target":"",
                     "title": "Go to the guide"
-                }
-            },
-            {
-                "heading": {
-                    "text": "Secure payment"
-                },
-                "iconBoxContent": "Lorem ipsum dolor sit amet",
-                "svgIconName": "icon-credit-card",
-                "link": {
-                    "url": "#payment",
-                    "text": "More about payment",
-                    "target":"",
-                    "title": "More about payment"
                 }
             }
         ]

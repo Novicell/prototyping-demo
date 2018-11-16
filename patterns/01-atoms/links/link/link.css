@@ -10,8 +10,11 @@
 
 /*Link style*/
 .link {
-    color: var(--link-color);
     font-family: var(--link-font-family);
+
+    &[href] {
+        color: var(--link-color);
+    }
 
     &:hover,
     &:focus {

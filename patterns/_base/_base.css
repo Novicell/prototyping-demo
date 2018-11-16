@@ -58,7 +58,7 @@ body {
 
 
 /* Links */
-a {
+a[href] {
     color: var(--color-link, blue);
     text-decoration: underline;
     text-decoration-skip: ink;
