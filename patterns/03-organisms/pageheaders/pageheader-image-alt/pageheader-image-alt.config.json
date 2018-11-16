@@ -3,7 +3,7 @@
 	"status": "prototype",
 	"context": {
 		"header": {
-			"text": "Novicell Design System"
+			"text": "Prototype with Netlify"
 		},
 		"button": {
 			"text": "See more"
