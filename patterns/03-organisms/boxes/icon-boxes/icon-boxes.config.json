@@ -5,15 +5,15 @@
         "iconBoxes": [
             {
                 "heading": {
-                    "text": "Shop online"
+                    "text": "Get started"
                 },
-                "iconBoxContent": "Lorem ipsum dolor sit amet",
-                "svgIconName": "icon-shop",
+                "iconBoxContent": "Follow the guide to get started with prototyping",
+                "svgIconName": "icon-box",
                 "link": {
-                    "url": "#shop",
-                    "text": "Go to shop",
+                    "url": "#",
+                    "text": "Go to the guide",
                     "target":"",
-                    "title": "Go to shop"
+                    "title": "Go to the guide"
                 }
             },
             {
@@ -27,19 +27,6 @@
                     "text": "More about payment",
                     "target":"",
                     "title": "More about payment"
-                }
-            },
-            {
-                "heading": {
-                    "text": "Free delivery"
-                },
-                "iconBoxContent": "Lorem ipsum dolor sit amet",
-                "svgIconName": "icon-box",
-                "link": {
-                    "url": "#delivery",
-                    "text": "Buy now",
-                    "target":"",
-                    "title": "Buy now"
                 }
             }
         ]

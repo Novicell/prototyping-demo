@@ -4,16 +4,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preload" as="font" href="{{ path '/dist/fonts/lato-bold.woff2' }}" type="font/woff2" crossorigin>
         <link media="all" rel="stylesheet" href="{{ path '/dist/css/master.min.css' }}">
-        <link media="all" rel="stylesheet" href="{{ path '/dist/css/documentation.min.css' }}">
     </head>
-    <body id="site">
+    <body>
 
-        {{ render '@pageheader-image-alt' }}
+        <section>
+            {{ render '@documentation' }}
+        </section>     
 
-        <div class="container">
-            <h2>Prototyping using Netlify</h2>
-        </div>
-        
         <script defer src="{{ path '/dist/scripts/vendor.min.js' }}"></script>
         <script defer src="{{ path '/dist/scripts/master.min.js' }}"></script>
     </body>

@@ -5,6 +5,29 @@
     --site-background-color: var(--site-background-color, #fff)
  }
 
+ /* Documentation */
+ .Document {
+    padding: 0;
+  }
+  
+.Document-header {
+    display: none;
+}
+
+.Prose {
+    max-width: 100%;
+
+    h1 {
+        font-size: 3vw;
+    }
+} 
+
+.documentation .Prose section {
+    margin-bottom: 50px;
+}
+
+
+
 /* Box sizing */
 * {
     box-sizing: border-box;
