@@ -5,7 +5,7 @@
     "pageHeader": {
       "top": "3/17",
       "main": "Clone repository",
-      "sub": "Clone the prototype repository typing <code>git clone git@github.com:Novicell/prototyping-demo.git .</code> and hitting enter"
+      "sub": "Clone the prototype repository typing <code>git clone git@github.com:Novicell/prototyping-demo.git .</code> and hitting enter."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-4",

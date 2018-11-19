@@ -95,3 +95,11 @@ figure {
 
     &.contain-width img { width: auto; }
 }
+
+code {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 8px 10px 10px;
+}
