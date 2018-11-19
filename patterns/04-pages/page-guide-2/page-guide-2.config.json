@@ -4,8 +4,8 @@
   "context": {
     "pageHeader": {
       "top": "2/17",
-      "main": "npm and Gulp",
-      "sub": "Install <a href=\"https://www.npmjs.com/get-npm\">npm</a> and <a href=\"https://gulpjs.com/\">Gulp</a>."
+      "main": "Go to your root folder",
+      "sub": "Open your favourite Terminal/Bash tool and goto to your web root. Hint: type <code>pwd</code> and hit enter to make sure your in the right location."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-1",
