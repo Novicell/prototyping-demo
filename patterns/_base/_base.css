@@ -66,6 +66,7 @@ a[href] {
     &:hover,
     &:focus {
         color: var(--color-spearmint);
+        text-decoration: none;
     }
 }
 
