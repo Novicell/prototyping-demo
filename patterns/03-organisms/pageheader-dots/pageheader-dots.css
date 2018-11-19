@@ -8,8 +8,6 @@
 }
 
 .pageheader-dots {
-   
-
     &__color {
         background-color: var(--pageheader-dots-background-color);
         width: var(--pageheader-dots-width);
