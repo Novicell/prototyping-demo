@@ -5,7 +5,7 @@
 		"header": {
 			"top": "Stop whac-a-mole-ing",
 			"main": "Start prototyping<br>today!",
-			"sub": "Read the guide and get started"
+			"sub": "Read our guide on how to prototype with Atomic Design and Netlify."
 		},
 		"linkButton": {
 			"url": "/components/preview/page-guide",
