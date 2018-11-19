@@ -1,0 +1,9 @@
+{
+    "title": "Frontpage",
+    "status": "prototype",
+    "context": {
+		"header": {
+			"text": "Guide"
+		}        
+    }
+}
