@@ -1,0 +1,93 @@
+{
+    "title": "List of links",
+    "status": "prototype",
+    "context": {
+        "list": [
+            {
+                "url": "",
+                "text": "Install npm and gulp",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Clone repo",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Remove .git",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Create Netlify Account",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "New Github repo",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "git init",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "git add .",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "git commit -m \"Initial commit\"",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "git remote add origin git@github.com:Novicell/prototyping-demo.git",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "git push -u origin master",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Go to https://app.netlify.com/account/sites",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Add new site from Git",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Choose Github",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Authorize Netlify (if needed)",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Configure the Netlify app on GitHub",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Deploy site",
+                "title": ""
+            },
+            {
+                "url": "",
+                "text": "Wait for site deploy to finish",
+                "title": ""
+            }            
+        ]
+    }
+}

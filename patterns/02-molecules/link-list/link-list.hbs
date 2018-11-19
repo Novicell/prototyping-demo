@@ -1,7 +1,7 @@
 <ol class="link-list {{ modifier }}">
     {{#each list}}
         <li class="link-list__item">
-            {{ render '@link' this }}
+            {{> '@link' }}
         </li>
     {{/each}}
 </ol>
