@@ -1,0 +1,17 @@
+{
+	"title": "Pageheader - dots",
+	"status": "prototype",
+	"context": {
+		"pageHeader": {
+			"top": "Pageheader",
+			"main": "With dots<br>And background<br>And dropshadow!",
+			"sub": "Sub with additional information"
+		},
+		"previousButton": {
+			"text": "Link button"
+		},
+		"nextButton": {
+			"text": "Link button"
+		}
+	}
+}

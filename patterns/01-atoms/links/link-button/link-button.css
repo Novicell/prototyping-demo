@@ -5,7 +5,7 @@
 /*Setting document variables*/
 :root{
     --link-button-color-primary: var(--color-red);
-    --link-button-color-hover: var(--color-berry);
+    --link-button-color-hover: var(--color-white);
     --link-button-color-white: var(--color-white);
     --link-button-color-text: var(--color-text);
     --link-button-base-font-family: var(--base-font-family);
@@ -13,38 +13,58 @@
 
 
 /* Default button*/
-.link-button {
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
+.link-button,
+.link-button--ghost {
     background-image: none; /* Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214*/
-    background-color: var(--link-button-color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
     font-weight: 600;
     font-family: var(--link-button-base-font-family);
-    font-size: 24px;
-    transition: background .3s, color .3s, border-color .3s;
-    color: var(--link-button-color-white);
-    border: 1px solid transparent;
-    text-decoration: none;
-    border-radius: 4px;
+    font-size: 20px;
     line-height: 50px;
     padding: 0 30px;
+    text-decoration: none;
+    transition: background .3s, color .3s, border-color .3s;
+
+    &[disabled],
+    [disabled] & { cursor: not-allowed; }
+}
+
+.link-button {
+    background-color: var(--link-button-color-primary);
+    color: var(--link-button-color-white);
+    border: 1px solid transparent;
 
     &[href] {
         color: var(--link-button-color-white);
         text-decoration: none;
     }
 
-    &:hover,
-    &:focus {
-        color: var(--link-button-color-white);
+    &[href]:hover,
+    &[href]:focus {
+        color: var(--link-button-color-primary);
         background: var(--link-button-color-hover);
         text-decoration: none;
         outline: none;
     }
-
-
-    &[disabled],
-    [disabled] & { cursor: not-allowed; }
 }
 
+.link-button--ghost {
+    background-color: transparent;
+    color: var(--link-button-color-primary);
+    border: 1px solid var(--link-button-color-primary);
+
+    &[href] {
+        color: var(--link-button-color-primary);
+        text-decoration: none;
+    }
+
+    &[href]:hover,
+    &[href]:focus {
+        color: var(--link-button-color-primary);
+        background: var(--link-button-color-hover);
+        text-decoration: none;
+        outline: none;
+    }
+}

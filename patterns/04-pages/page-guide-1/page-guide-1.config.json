@@ -1,0 +1,16 @@
+{
+  "title": "Page - Guide",
+  "status": "prototype",
+  "context": {
+    "pageHeader": {
+      "top": "1/17",
+      "main": "Go to your root folder",
+      "sub": "Open favourite Terminal/Bash tool and goto to your web root. Hint type <code>pwd</code> and hit enter to make sure your in the right location."
+    },
+    "nextButton": {
+      "url": "/components/preview/page-guide-2",
+      "title": "Next",
+      "text": "Next"	
+    }      
+  }
+}

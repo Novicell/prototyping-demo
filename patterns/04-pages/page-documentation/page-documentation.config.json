@@ -2,15 +2,15 @@
     "title": "Documentation",
     "status": "prototype",
     "context": {
-		"header": {
-			"top": "Stop whac-a-mole-ing",
-			"main": "Start prototyping<br>today!",
-			"sub": "Read our guide on how to prototype with Atomic Design and Netlify."
-		},
-		"linkButton": {
-			"url": "/components/preview/page-guide",
-			"title": "Get started",
-			"text": "Get started"	
-		}      
+			"pageHeader": {
+				"top": "Stop whac-a-mole-ing",
+				"main": "Start prototyping<br>today!",
+				"sub": "Read our guide on how to prototype with Atomic Design and Netlify."
+			},
+			"nextButton": {
+				"url": "/components/preview/page-guide-1",
+				"title": "Get started",
+				"text": "Get started"	
+			}      
     }
 }

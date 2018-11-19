@@ -1,0 +1,84 @@
+:root{
+    --pageheader-dots-background-color: var(--color-blackberry);
+    --pageheader-dots-background-gradient: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px), transparent;
+    --pageheader-dots-background-size: 40px 40px;
+    --pageheader-dots-height: 100vh;
+    --pageheader-dots-width: 100%;
+    --pageheader-dots-padding-left: 10%;
+}
+
+.pageheader-dots {
+   
+
+    &__color {
+        background-color: var(--pageheader-dots-background-color);
+        width: var(--pageheader-dots-width);
+        height: var(--pageheader-dots-height);
+    }
+
+    &__dots {
+        top: 0;
+        z-index: 1;
+        width: var(--pageheader-dots-width);
+        background: var(--pageheader-dots-background-gradient);
+        background-size: --pageheader-dots-background-size;
+        height: var(--pageheader-dots-height);
+    }
+
+    &__wrapper {
+        height: var(--pageheader-dots-height);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: var(--pageheader-dots-padding-left);
+
+        @media (--viewport-xs-max) {
+            padding-left: 0;
+            justify-content: center;
+        }
+    }
+
+    &__container {
+        color: var(--color-white);
+        font-family: var(--heading-font-family);
+        flex: 1 0 auto;
+    }    
+
+    &__top-heading {
+        font-size: 22px;
+        margin: 0px;
+        margin-bottom: 8px;
+        
+    }
+    
+    &__main-heading {
+        font-weight: 800;
+        font-size: 65px;
+        line-height: 82px;
+        margin: 0px;
+    }
+
+    &__main-heading-shadow {
+        z-index: -1;
+        font-weight: 800;
+        font-size: 65px;
+        line-height: 82px;
+        margin: 20px;
+        position: relative;
+        color: rgba(000, 000, 000, 0.2);
+    }
+
+    &__sub-heading {
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 30px;
+
+        @media (--viewport-xs-max) {
+            margin-left: 50px;
+        }
+    }
+
+    &__button {
+        margin-top: 50px;
+    }        
+}    

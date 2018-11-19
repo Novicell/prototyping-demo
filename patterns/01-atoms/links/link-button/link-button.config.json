@@ -2,10 +2,8 @@
 	"title": "Link Button",
 	"status": "prototype",
 	"context": {
-		"linkButton": {
-			"url": "#",
-			"title": "Link Button title",
-			"text": "Link Button"	
-		}
+		"url": "#",
+		"title": "Link Button title",
+		"text": "Link Button"	
 	}
 }

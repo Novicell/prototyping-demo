@@ -59,12 +59,14 @@ body {
 
 /* Links */
 a[href] {
-    color: var(--color-link, blue);
+    color: var(--color-spearmint);
     text-decoration: underline;
     text-decoration-skip: ink;
 
     &:hover,
-    &:focus { color: shade(var(--color-link, blue), 10%); }
+    &:focus {
+        color: var(--color-spearmint);
+    }
 }
 
 /* Horizontal ruler */
