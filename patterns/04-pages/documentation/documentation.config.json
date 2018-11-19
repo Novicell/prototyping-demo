@@ -3,8 +3,10 @@
     "status": "prototype",
     "context": {
 		"header": {
-			"text": "Prototyping demo"
-        },
+			"top": "Stop whac-a-mole'ing",
+			"main": "Start prototyping<br>With Netlify today!",
+			"sub": "Read the guide and get started"
+		},
         "iconBoxes": [
             {
                 "heading": {

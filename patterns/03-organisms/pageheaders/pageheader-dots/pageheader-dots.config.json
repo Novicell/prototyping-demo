@@ -1,0 +1,11 @@
+{
+	"title": "Pageheader - dots",
+	"status": "prototype",
+	"context": {
+		"header": {
+			"top": "Pageheader",
+			"main": "With dots<br>And background<br>And dropshadow!",
+			"sub": "Sub with additional information"
+		}
+	}
+}

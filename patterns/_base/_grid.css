@@ -6,8 +6,8 @@
     --grid-section-margin: 50px;
 }
 
-section {
-    margin-bottom: var(--grid-section-margin);
+section + section {
+    margin-top: var(--grid-section-margin);
 }
 
 .container {
