@@ -5,12 +5,18 @@
         "iconBoxes": [
             {
                 "heading": {
-                    "text": "Get started"
+                    "text": "Get started",
+                    "link": {
+                        "url": "/components/preview/documentation",
+                        "text": "Get started",
+                        "target":"",
+                        "title": "Get started"
+                    }
                 },
-                "iconBoxContent": "Follow the guide to get started with prototyping.",
+                "iconBoxContent": "Follow this guide to get started with prototyping.",
                 "svgIconName": "icon-box",
                 "link": {
-                    "url": "#",
+                    "url": "/components/preview/documentation",
                     "text": "Go to the guide",
                     "target":"",
                     "title": "Go to the guide"

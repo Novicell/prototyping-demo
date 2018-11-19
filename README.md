@@ -1,3 +1,3 @@
 # Prototyping demo
 
-Demo foron how to prototype using Netlify.
+Demo for prototyping using Netlify.

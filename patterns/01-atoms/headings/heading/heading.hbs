@@ -1,1 +1,7 @@
-<h2 class="heading {{ modifier }} {{ class }}">{{ text }}</h2>
+<h2 class="heading {{ modifier }} {{ class }}">
+    {{#if link}}
+        <a href="{{ link.url }}" title="{{ link.text }}" class="heading__link">{{ text }}</a>
+    {{else}}
+        {{ text }}
+    {{/if}}
+</h2>

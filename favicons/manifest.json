@@ -1,7 +1,7 @@
 {
-  "name": "Novicell Frontend",
-  "short_name": "Novicell Frontend",
-  "description": "Novicell Progressive WebApp",
+  "name": "Prototyping Demo",
+  "short_name": "Prototyping Demo",
+  "description": "Prototyping Demo",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",

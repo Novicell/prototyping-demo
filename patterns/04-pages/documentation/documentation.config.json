@@ -2,5 +2,29 @@
     "title": "Frontpage",
     "status": "prototype",
     "context": {
+		"header": {
+			"text": "Prototyping demo"
+        },
+        "iconBoxes": [
+            {
+                "heading": {
+                    "text": "Get started",
+                    "link": {
+                        "url": "/components/detail/page-guide",
+                        "text": "Get started",
+                        "target":"",
+                        "title": "Get started"
+                    }
+                },
+                "iconBoxContent": "Follow this guide to get started with prototyping.",
+                "svgIconName": "icon-box",
+                "link": {
+                    "url": "/components/detail/page-guide",
+                    "text": "Go to the guide",
+                    "target":"",
+                    "title": "Go to the guide"
+                }
+            }
+        ]        
     }
 }

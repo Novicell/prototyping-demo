@@ -4,7 +4,7 @@
 
 :root{
 	--icon-box-background-color: var(--color-white);
-	--icon-box-border-style: 1px solid var(--color-gray-light);
+	--icon-box-border-style: 2px solid var(--color-secondary);
 	--icon-box-border-radius: 4px;
 	--icon-box-padding: 20px;
 	--icon-box-paragraph-spacing-top: 15px;
@@ -22,7 +22,18 @@
     }
 }
 
+.icon-box__icon {
+    border: 1px solid var(--icon-box-border-style);
+    border-radius: 50% 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 92px;
+    width: 92px;
+}
+
 .icon-box__icon svg {
-    height: 72px;
-    width: 72px;
+    height: 50px;
+    margin: auto;
+    width: 50px;
 }

@@ -32,5 +32,20 @@
         margin-bottom: 20px;
         border-bottom: 1px solid color(var(--footer-border-color) alpha(var(--footer-border-opacity)));
     }
+
+    .heading__link {
+        font-family: var(--link-font-family);
+        text-decoration: none;
+    
+        &[href] {
+            color: var(--link-color);
+        }
+    
+        &:hover,
+        &:focus {
+            color: shade(var(--link-color), 10%);
+            outline: none;
+        }
+    }
 }
 

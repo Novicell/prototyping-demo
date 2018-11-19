@@ -3,7 +3,7 @@
 	"status": "prototype",
 	"context": {
 		"header": {
-			"text": "Prototyping Demo"
+			"text": "Pageheader Image Alt"
 		},
 		"button": {
 			"text": "See more"

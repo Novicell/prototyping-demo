@@ -16,9 +16,9 @@ module.exports = (function () {
     /*
      * App manifest and favicon variables
      */
-    var appName = "Novicell Frontend"; // name for webapp
+    var appName = "Prototyping Demo"; // name for webapp
     var appColor = "#ffffff"; // color for webapp icons
-    var appDescription = "Novicell Progressive WebApp";
+    var appDescription = "Prototyping Demo";
 
     return {
         // ------------- Bundles -------------
