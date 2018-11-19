@@ -3,30 +3,14 @@
     "status": "prototype",
     "context": {
 		"header": {
-			"top": "Stop whac-a-mole'ing",
-			"main": "Start prototyping<br>With Netlify today!",
+			"top": "Stop whac-a-mole-ing",
+			"main": "Start prototyping<br>today!",
 			"sub": "Read the guide and get started"
 		},
-        "iconBoxes": [
-            {
-                "heading": {
-                    "text": "Get started",
-                    "link": {
-                        "url": "/components/detail/page-guide",
-                        "text": "Get started",
-                        "target":"",
-                        "title": "Get started"
-                    }
-                },
-                "iconBoxContent": "Follow this guide to get started with prototyping.",
-                "svgIconName": "icon-box",
-                "link": {
-                    "url": "/components/detail/page-guide",
-                    "text": "Go to the guide",
-                    "target":"",
-                    "title": "Go to the guide"
-                }
-            }
-        ]        
+		"linkButton": {
+			"url": "#",
+			"title": "Get started",
+			"text": "Get started"	
+		}      
     }
 }

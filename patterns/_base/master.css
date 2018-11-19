@@ -7,13 +7,11 @@
 
 
 /* Atoms */
-@import '../01-atoms/buttons/button/button.css';
 @import '../01-atoms/headings/heading/heading.css';
 @import '../01-atoms/headings/heading-page/heading-page.css';
 @import '../01-atoms/image/image.css';
 @import '../01-atoms/links/link/link.css';
 @import '../01-atoms/links/link-button/link-button.css';
-@import '../01-atoms/links/link-social/link-social.css';
 @import '../01-atoms/logo/logo.css';
 @import '../01-atoms/paragraph/paragraph.css';
 @import '../01-atoms/svg-text/svg-text.css';
@@ -31,5 +29,4 @@
 @import '../03-organisms/section/image-text-section/image-text-section.css';
 @import '../03-organisms/section/text-image-section/text-image-section.css';
 @import '../03-organisms/list-page/list-page.css';
-@import '../03-organisms/topbar/topbar/topbar.css';
 @import '../03-organisms/pageheaders/pageheader-dots/pageheader-dots.css';
