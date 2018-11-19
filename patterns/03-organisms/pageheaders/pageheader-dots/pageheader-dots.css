@@ -42,7 +42,6 @@
             font-size: 65px;
             line-height: 82px;
             margin: 0px;
-            /* text-shadow: 35px -8px rgba(000, 000, 000, 0.2); */
         }
         &__main-heading_shadow {
             z-index: -1;
@@ -56,15 +55,15 @@
         &__sub-heading {
             font-size: 18px;
             font-weight: 300;
-            max-width: 250px;
-            margin-left: 100px;
             margin-top: 30px;
 
             @media (--viewport-xs-max) {
                 margin-left: 50px;
             }
         }
-    }
+    }    
+}
 
-    
+.pageheader-dots__button {
+    margin-top: 50px;
 }

@@ -21,7 +21,7 @@
     background-color: var(--link-button-color-primary);
     font-weight: 600;
     font-family: var(--link-button-base-font-family);
-    font-size: 30px;
+    font-size: 24px;
     transition: background .3s, color .3s, border-color .3s;
     color: var(--link-button-color-white);
     border: 1px solid transparent;
