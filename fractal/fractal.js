@@ -15,7 +15,7 @@ const novicellTheme = require('@frctl/mandelbrot')({
     //favicon: config.webPath +'favicon.ico',
     styles: [
         'default',
-        "/fractal/novicell-fractal-styles.css"
+        "/fractal/novicell-fractal-styles.css"        
     ]
 });
 

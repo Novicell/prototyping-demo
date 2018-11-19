@@ -4,26 +4,29 @@
 :root{
     --hero-text-color: var(--color-white);
     --hero-background-color: var(--color-black);
-    --hero-content-opacity: 20%;
+    --hero-content-opacity: 90%;
 }
 
-.pageheader-image {
+.pageheader-image-alt {
     color: var(--hero-text-color);
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 60px;
     position: relative;
     background-size: cover;
 
     @media (--viewport-md-min) {
-        height: 500px;
+        height: 300px;
     }
 
     @media (--viewport-lg-min) {
-        height: 700px
+        height: 500px
     }
     
     &:before {
-        background-color: color(var(--hero-background-color) alpha(var(--hero-content-opacity)));
+        background-color: color(var(--color-primary) alpha(var(--hero-content-opacity)));
         content: "";
         position: absolute;
         bottom: 0;
@@ -33,12 +36,12 @@
     }
 
     &__inner {
+        text-align: center;
         position: relative;
+    }
 
-        @media (--viewport-md-min) {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+    &__heading {
+        color: var(--color-white);
+        font-size: 3vw;
     }
 }
