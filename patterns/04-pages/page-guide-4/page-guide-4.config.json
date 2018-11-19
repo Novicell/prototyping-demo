@@ -1,0 +1,21 @@
+{
+  "title": "Page - Guide",
+  "status": "prototype",
+  "context": {
+    "pageHeader": {
+      "top": "4/17",
+      "main": "New git repository",
+      "sub": "Create a new repository on Github and follow the guide adding your new prototype files."
+    },
+    "previousButton": {
+      "url": "/components/preview/page-guide-3",
+      "title": "Previous",
+      "text": "Previous"
+    },
+    "nextButton": {
+      "url": "/components/preview/page-guide-5",
+      "title": "Next",
+      "text": "Next"	
+    }      
+  }
+}
