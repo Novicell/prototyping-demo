@@ -3,9 +3,9 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "3/9",
+      "top": "4/9",
       "main": "Clone repository",
-      "sub": "<code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git my-prototype rm -rf !$/.git</code>"
+      "sub": "In your web root:<br><code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git my-prototype rm -rf !$/.git</code>"
     },
     "previousButton": {
       "url": "/components/preview/page-guide-3",
