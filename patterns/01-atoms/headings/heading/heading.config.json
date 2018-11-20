@@ -10,12 +10,6 @@
 			"context": {
 				"text": "Column header"
 			}
-		},
-		{
-			"name": "footer",
-			"context": {
-				"text": "Footer header"
-			}
 		}
 	]
 }
