@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "1/17",
+      "top": "1/9",
       "main": "Prerequisites",
       "sub": "Install <a href=\"https://www.npmjs.com/get-npm\">npm</a> and <a href=\"https://gulpjs.com/\">Gulp</a>."
     },

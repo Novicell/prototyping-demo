@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "5/17",
+      "top": "5/9",
       "main": "Git setup",
       "sub": "Execute the following commands in your web root:<br><code>cd my-prototype</code><br><code>git init</code><br><code>git add .</code><br><code>git commit -m \"Go go go!\"</code><br><code>git remote add origin git@github.com:REPLACE_ME/my-prototype.git</code><br><code>git push -u origin master</code>"
     },

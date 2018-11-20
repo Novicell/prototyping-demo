@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "2/17",
+      "top": "2/9",
       "main": "Go to your root folder",
       "sub": "Open your favourite Terminal/Bash tool and goto to your web root. Hint: type <code>pwd</code> and hit enter to make sure your in the right location."
     },

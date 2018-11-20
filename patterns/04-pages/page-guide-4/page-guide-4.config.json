@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "3/17",
+      "top": "3/9",
       "main": "Clone repository",
       "sub": "<code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git my-prototype rm -rf !$/.git</code>"
     },
