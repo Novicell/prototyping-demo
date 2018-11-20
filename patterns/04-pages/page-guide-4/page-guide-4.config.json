@@ -3,9 +3,9 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "4/17",
-      "main": "New git repository",
-      "sub": "Create a new repository on Github and follow the guide adding your new prototype files."
+      "top": "3/17",
+      "main": "Clone repository",
+      "sub": "<code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git my-prototype rm -rf !$/.git</code>"
     },
     "previousButton": {
       "url": "/components/preview/page-guide-3",

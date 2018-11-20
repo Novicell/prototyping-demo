@@ -4,7 +4,7 @@
   "context": {
     "pageHeader": {
       "top": "1/17",
-      "main": "npm and Gulp",
+      "main": "Prerequisites",
       "sub": "Install <a href=\"https://www.npmjs.com/get-npm\">npm</a> and <a href=\"https://gulpjs.com/\">Gulp</a>."
     },
     "nextButton": {

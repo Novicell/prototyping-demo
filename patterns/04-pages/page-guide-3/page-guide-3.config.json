@@ -3,9 +3,9 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "3/17",
-      "main": "Clone repository",
-      "sub": "Clone the prototype repository without history and .git folder typing <code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git rm -rf !$/.git</code> and hitting enter."
+      "top": "4/17",
+      "main": "New git repository",
+      "sub": "Create a new repository named \"my-prototype\" on <a href=\"https://github.com/new\" target=\"_blank\">Github</a> (login or create an account)."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-2",

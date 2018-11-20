@@ -1,0 +1,21 @@
+{
+  "title": "Page - Guide",
+  "status": "prototype",
+  "context": {
+    "pageHeader": {
+      "top": "6/9",
+      "main": "Create Netlify account",
+      "sub": "Go to <a href=\"https://app.netlify.com/signup\">Netlify.com</a> and signup for a new account."
+    },
+    "previousButton": {
+      "url": "/components/preview/page-guide-5",
+      "title": "Previous",
+      "text": "Previous"
+    },
+    "nextButton": {
+      "url": "/components/preview/page-guide-7",
+      "title": "Next",
+      "text": "Next"	
+    }      
+  }
+}
