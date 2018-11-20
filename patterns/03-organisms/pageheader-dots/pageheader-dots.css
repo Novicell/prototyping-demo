@@ -8,18 +8,16 @@
 }
 
 .pageheader-dots {
-    &__color {
-        background-color: var(--pageheader-dots-background-color);
-        width: var(--pageheader-dots-width);
-        height: var(--pageheader-dots-height);
-    }
+    background-color: var(--pageheader-dots-background-color);
+    width: var(--pageheader-dots-width);
+    height: var(--pageheader-dots-height);
 
     &__dots {
         top: 0;
         z-index: 1;
         width: var(--pageheader-dots-width);
         background: var(--pageheader-dots-background-gradient);
-        background-size: --pageheader-dots-background-size;
+        background-size: var(--pageheader-dots-background-size);
         height: var(--pageheader-dots-height);
     }
 
