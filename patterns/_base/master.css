@@ -14,19 +14,15 @@
 @import '../01-atoms/links/link-button/link-button.css';
 @import '../01-atoms/logo/logo.css';
 @import '../01-atoms/paragraph/paragraph.css';
-@import '../01-atoms/svg-text/svg-text.css';
 
 /* Molecules */
 @import '../02-molecules/box/box/box.css';
 @import '../02-molecules/box/box-image/box-image.css';
-@import '../02-molecules/box/icon-box/icon-box.css';
 @import '../02-molecules/box/text-box/text-box.css';
 @import '../02-molecules/link-list/link-list.css';
 @import '../02-molecules/list-page-item/list-page-item.css';
 @import '../02-molecules/list-page-link/list-page-link.css';
 
 /* Organisms */
-@import '../03-organisms/section/image-text-section/image-text-section.css';
-@import '../03-organisms/section/text-image-section/text-image-section.css';
 @import '../03-organisms/list-page/list-page.css';
 @import '../03-organisms/pageheader-dots/pageheader-dots.css';
