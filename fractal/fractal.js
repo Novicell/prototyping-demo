@@ -15,7 +15,8 @@ const novicellTheme = require('@frctl/mandelbrot')({
     styles: [
         'default',
         "/fractal/novicell-fractal-styles.css"        
-    ]
+    ],
+    "panels": ["html", "view", "context", "resources", "info"]
 });
 
 novicellTheme.addStatic(__dirname, 'fractal'); 
