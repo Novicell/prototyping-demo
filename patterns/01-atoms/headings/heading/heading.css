@@ -4,7 +4,7 @@
 
 /*Setting document variables*/
 :root{
-    --heading-color-primary: var(--color-primary);
+    --heading-color-primary: var(--color-black);
     --heading-color-secondary: var(--color-secondary);
     --heading-color-black: var(--color-black);
     --hero-text-color: var(--color-white);
@@ -15,7 +15,7 @@
 
 .heading {
     color: var(--heading-color-primary);
-    font-size: 22px;
+    font-size: 35px;
     font-weight: 600;
     font-family: var(--heading-font-family);
     margin-bottom: 20px;

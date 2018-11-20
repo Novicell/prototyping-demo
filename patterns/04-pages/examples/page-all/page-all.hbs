@@ -1,0 +1,33 @@
+<section>
+    {{render '@pageheader-dots' pageheaderDots }}
+</section>
+<section>
+    <div class="container">
+        <section>
+            {{> '@heading-page' aboutBoxes }}
+            <hr>
+            {{> '@paragraph' aboutBoxesParagraph }}
+            {{render '@about-boxes' }}
+        </section>
+        <section>
+            {{> '@heading-page' feedbackBox }}
+            <hr>
+            {{render '@feedback-box' }}
+        </section>
+        <section>
+            {{> '@heading-page' primaryBoxes }}
+            <hr>
+            {{render '@primary-boxes' }}
+        </section>
+        <section>
+            {{> '@heading-page' secondaryBoxes }}
+            <hr>
+            {{render '@secondary-boxes' }}
+        </section>
+        <section>
+            {{> '@heading-page' listPage }}
+            <hr>
+            {{render '@list-page' }}
+        </section>
+    </div>    
+</section>

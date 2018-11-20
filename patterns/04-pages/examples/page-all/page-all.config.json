@@ -1,0 +1,31 @@
+{
+    "title": "All patterns",
+    "status": "prototype",
+    "context": {
+		"pageheaderDots": {
+			"pageHeader": {
+				"top": "This is an example page",
+				"main": "Take a look at the examples<br>and get to now the system better.",
+				"sub": "Disclaimer: This is not a complete framework, but a clean boilerplate with a few examples, that you can build upon."
+			}
+		},
+		"aboutBoxes": {
+			"text": "About boxes"
+		},
+		"aboutBoxesParagraph": {
+			"text": "This is an <i>organism</i> using the <b>@text-box--centered</b> <i>molecule</i>."
+		},
+		"feedbackBox": {
+			"text": "Feedback box"
+		},
+		"primaryBoxes": {
+			"text": "Primary boxes"
+		},
+		"secondaryBoxes": {
+			"text": "Secondary boxes"
+		},
+		"listPage": {
+			"text": "List page"
+		}								
+    }
+}
