@@ -68,7 +68,6 @@ instance.handlebars.registerHelper('compare', function(lvalue, rvalue, options) 
     } else {
         return options.inverse(this);
     }
-    
 });
 
 
@@ -84,6 +83,7 @@ fractal.components.set('path', config.projectPath + 'patterns');
 fractal.docs.set('path', config.projectPath + 'documentation');
 fractal.docs.set('default.preview', '@preview');
 fractal.docs.set('ext', '.hbs');
+fractal.docs.set('indexLabel', 'Welcome to Novicells prototyping demo');
 
 // Web UI config
 fractal.web.theme(novicellTheme);
