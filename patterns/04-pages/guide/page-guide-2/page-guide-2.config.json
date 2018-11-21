@@ -4,8 +4,8 @@
   "context": {
     "pageHeader": {
       "top": "2/9",
-      "main": "Go to your root folder",
-      "sub": "Open your favourite Terminal/Bash tool and goto to your web root. Hint: type <code>pwd</code> and hit enter to make sure your in the right location."
+      "main": "Installation folder",
+      "sub": "Open your favourite Terminal/Bash tool and goto to where you want to install the prototype. Hint: You can use <code>pwd</code> to make sure your in the right location."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-1",

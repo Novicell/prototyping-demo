@@ -5,7 +5,7 @@
     "pageHeader": {
       "top": "4/9",
       "main": "Clone repository",
-      "sub": "In your web root:<br><code>git clone --depth=1 --branch=master git@github.com:Novicell/prototyping-demo.git my-prototype && rm -rf !$/.git</code>"
+      "sub": "In your web root:<br><code>git clone --depth=1 --branch=master https://github.com/Novicell/prototyping-demo.git my-prototype && rm -rf my-prototype/.git</code>"
     },
     "previousButton": {
       "url": "/components/preview/page-guide-3",
