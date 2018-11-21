@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "3/9",
+      "top": "3/8",
       "main": "New git repository",
       "sub": "Create a new repository named \"my-prototype\" on <a href=\"https://github.com/new\" target=\"_blank\">Github</a> (login or create an account)."
     },

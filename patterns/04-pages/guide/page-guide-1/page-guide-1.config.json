@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "1/9",
+      "top": "1/8",
       "main": "Prerequisites",
       "sub": "Make sure you have <a href=\"https://git-scm.com/\" target=\"_blank\">Git</a> and <a href=\"https://www.npmjs.com/get-npm\" target=\"_blank\">npm</a> installed. Protip: If you are on a Mac use <a href=\"https://brew.sh\" target=\"_blank\">Homebrew</a>."
     },

@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "2/9",
+      "top": "2/8",
       "main": "Installation folder",
       "sub": "Open your favourite Terminal/Bash tool and goto to where you want to install the prototype. Hint: You can use <code>pwd</code> to make sure your in the right location."
     },

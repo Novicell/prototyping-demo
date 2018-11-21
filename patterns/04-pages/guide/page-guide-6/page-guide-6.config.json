@@ -3,7 +3,7 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "6/9",
+      "top": "6/8",
       "main": "Create Netlify account",
       "sub": "Go to <a href=\"https://app.netlify.com/signup\" target=\"_blank\">Netlify.com</a> and signup for a new account (or use your existing)."
     },
