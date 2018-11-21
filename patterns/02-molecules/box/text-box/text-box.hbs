@@ -1,13 +1,11 @@
 <article class="text-box {{ modifier }}">
 	<div class="text-box__inner">
 		<div class="text-box__content">
-			{{ render '@heading--column' heading }}
-			{{#block "textBoxContent"}}
-				<p>{{ textBoxContent }}</p>
-			{{/block}}
+			{{> '@heading--column' heading }}
+			<p>{{{ text }}}</p>
 		</div>
 		{{#if link }}
-			{{ render '@link' }}
+			{{> '@link' link }}
 		{{/if}}
 	</div>
 </article>

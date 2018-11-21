@@ -5,7 +5,7 @@
         "heading": {
             "text": "Text Box header"
         },
-        "textBoxContent": "Text Box content."
+        "text": "Text Box content."   
     },
     "variants": [
         {
@@ -14,12 +14,12 @@
                 "heading": {
                     "text": "Text Box Centered header"
                 },
-                "content": "Text Box Centered content.",
+                "text": "Text Box Centered content.",
                 "link": {
-                    "url": "url",
-                    "text": "Link text",
+                    "url": "#",
+                    "text": "Textbox link",
                     "target":"",
-                    "title": "Link title"
+                    "title": "Textbox link"
                 }
             }
         }

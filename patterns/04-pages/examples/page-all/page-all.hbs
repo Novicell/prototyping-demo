@@ -13,18 +13,15 @@
             {{render '@about-boxes' }}
         </section>
         <section>
-            {{> '@heading-page' centeredBox }}
-            <hr>
-            {{render '@centered-box' }}
-        </section>
-        <section>
             {{> '@heading-page' primaryBoxes }}
             <hr>
+            {{> '@paragraph' primaryBoxesParagraph }}
             {{render '@primary-boxes' }}
         </section>
         <section>
             {{> '@heading-page' listPage }}
             <hr>
+            {{> '@paragraph' listPageParagraph }}
             {{render '@list-page' }}
         </section>
     </div>    

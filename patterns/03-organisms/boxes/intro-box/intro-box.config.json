@@ -1,0 +1,10 @@
+{
+    "title": "Intro Box",
+    "status": "prototype",
+    "context": {
+        "heading": {
+            "text": "Getting started"
+        },
+        "text": "We recommend taking a look at <a href=\"http://atomicdesign.bradfrost.com/\" target=\"\">Atomic Design</a> by Brad Frost and <a href=\"https://fractal.build/\" target=\"\">Fractal</a> for better understanding of the method and principles.<br></br>For getting started with development, take a look and follow the steps in the <a href=\"https://github.com/Novicell/novicell-frontend/blob/master/README.md\" target=\"\">Novicell Frontend README</a>.<br><br>Below you will find examples of some of the patterns in this demo."
+    }
+}
