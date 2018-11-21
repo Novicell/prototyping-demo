@@ -3,9 +3,9 @@
   "status": "prototype",
   "context": {
     "pageHeader": {
-      "top": "8/9",
-      "main": "Setup Netlify site",
-      "sub": "Go to <a href=\"\" target=\"_blank\">https://app.netlify.com/start</a>.<br>1. Choose \"Github\" as provider<br>2. Authorize (if needed)<br>3. Click the \"Configure Netlify on Github\" button and select \"My prototype\" repository<br><br>Click \"Deploy site\" button."
+      "top": "9/9",
+      "main": "Congratulations!",
+      "sub": "Your site is now live and your ready to start prototyping and learn Atomic Design.<br><br>Got input or questions? Reach out on <a href=\"https://github.com/Novicell/prototyping-demo\" target\"_blank\">Github</a>."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-7",
@@ -13,9 +13,9 @@
       "text": "Previous"
     },
     "nextButton": {
-      "url": "/components/preview/page-guide-9",
-      "title": "Next",
-      "text": "Next"	
-    }      
+      "url": "/components/preview/page-all",
+      "title": "Examples",
+      "text": "Examples"
+    }    
   }
 }
