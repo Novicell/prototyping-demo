@@ -5,7 +5,7 @@
 		"pageheaderDots": {
 			"pageHeader": {
 				"top": "This is an example page",
-				"main": "Take a look at the examples<br>and get to now the system better.",
+				"main": "Scroll down and take a look at the examples<br>and get to now the system better.",
 				"sub": "Disclaimer: This is not a complete framework, but a clean boilerplate with a few examples, that you can build upon."
 			}
 		},

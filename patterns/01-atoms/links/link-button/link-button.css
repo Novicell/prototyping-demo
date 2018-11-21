@@ -31,6 +31,14 @@
     [disabled] & { cursor: not-allowed; }
 }
 
+/* Add spacing between buttons if they are next to each other */
+.link-button + .link-button,
+.link-button--ghost + .link-button--ghost,
+.link-button + .link-button--ghost,
+.link-button--ghost + .link-button {
+    margin-left: 20px;
+}
+
 .link-button {
     background-color: var(--link-button-color-primary);
     color: var(--link-button-color-white);
