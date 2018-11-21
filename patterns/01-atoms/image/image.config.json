@@ -1,6 +1,6 @@
 {
     "title": "Image",
-    "status": "prototype",
+    "status": "wip",
     "context": {
         "url": "https://picsum.photos/600/300?image=0",
         "alt": "Image"

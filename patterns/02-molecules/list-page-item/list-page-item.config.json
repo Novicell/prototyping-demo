@@ -1,6 +1,6 @@
 {
     "title": "List page item",
-    "status": "prototype",
+    "status": "wip",
     "context": {
         "list-page-item": {
             "img": "https://picsum.photos/600/300?image=0",

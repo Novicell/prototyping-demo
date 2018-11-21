@@ -1,6 +1,6 @@
 {
 	"title": "Link",
-	"status": "prototype",
+	"status": "wip",
 	"context": {
 		"url": "url",
 		"text": "Link text",
