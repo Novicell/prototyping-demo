@@ -5,7 +5,7 @@
     "pageHeader": {
       "top": "8/9",
       "main": "Setup Netlify site",
-      "sub": "Go to <a href=\"\" target=\"_blank\">https://app.netlify.com/start</a>.<br>1. Choose \"Github\" as provider<br>2. Authorize (if needed)<br>3. Click the \"Configure Netlify on Github\" button and select \"My prototype\" repository<br><br>Click \"Deploy site\" button."
+      "sub": "Go to <a href=\"https://app.netlify.com/start\" target=\"_blank\">https://app.netlify.com/start</a>.<br>1. Choose \"Github\" as provider<br>2. Authorize (if needed)<br>3. Click the \"Configure Netlify on Github\" button and select \"My prototype\" repository<br>4. Click \"Deploy site\" button.<br>5. Wait for the deploy to finish."
     },
     "previousButton": {
       "url": "/components/preview/page-guide-6",

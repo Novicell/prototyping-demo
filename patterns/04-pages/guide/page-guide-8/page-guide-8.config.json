@@ -14,8 +14,8 @@
     },
     "nextButton": {
       "url": "/components/preview/page-all",
-      "title": "Examples",
-      "text": "Examples"
+      "title": "See examples",
+      "text": "See examples"
     }    
   }
 }
