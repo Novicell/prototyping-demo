@@ -12,6 +12,13 @@
     width: var(--pageheader-dots-width);
     height: var(--pageheader-dots-height);
 
+    &__back {
+        color: var(--color-spearmint);
+        left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+
     &__dots {
         top: 0;
         z-index: 1;
