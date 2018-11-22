@@ -18,7 +18,7 @@
     background-image: none; /* Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214*/
     border-radius: 4px;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     font-weight: 600;
     font-family: var(--link-button-base-font-family);
     font-size: 20px;
@@ -29,6 +29,10 @@
 
     &[disabled],
     [disabled] & { cursor: not-allowed; }
+
+    @media (--viewport-md-min) {
+        display: inline-block;
+    }    
 }
 
 /* Add spacing between buttons if they are next to each other */
@@ -36,7 +40,11 @@
 .link-button--ghost + .link-button--ghost,
 .link-button + .link-button--ghost,
 .link-button--ghost + .link-button {
-    margin-left: 20px;
+    margin-top: 20px;
+
+    @media (--viewport-md-min) {
+        margin-left: 20px;
+    }
 }
 
 .link-button {

@@ -4,14 +4,14 @@
     --pageheader-dots-background-size: 40px 40px;
     --pageheader-dots-height: 100vh;
     --pageheader-dots-width: 100%;
-    --pageheader-dots-padding-left: 10%;
+    --pageheader-dots-padding: 10%;
 }
 
 .pageheader-dots {
     background-color: var(--pageheader-dots-background-color);
-    width: var(--pageheader-dots-width);
+    width: var(--pageheader-dots-width);    
     height: var(--pageheader-dots-height);
-
+    
     &__back {
         color: var(--color-spearmint);
         left: 20px;
@@ -33,11 +33,9 @@
         width: 100%;
         display: flex;
         align-items: center;
-        padding-left: var(--pageheader-dots-padding-left);
+        padding: var(--pageheader-dots-padding);
 
-        @media (--viewport-xs-max) {
-            padding-left: 0;
-            justify-content: center;
+        @media (--viewport-xs-min) {
         }
     }
 
@@ -56,19 +54,29 @@
     
     &__main-heading {
         font-weight: 800;
-        font-size: 65px;
-        line-height: 82px;
+        font-size: 35px;
+        line-height: 42px;
         margin: 0px;
+
+        @media (--viewport-sm-min) {
+            font-size: 65px;
+            line-height: 82px;            
+        }    
     }
 
     &__main-heading-shadow {
         z-index: -1;
         font-weight: 800;
-        font-size: 65px;
-        line-height: 82px;
+        font-size: 35px;
+        line-height: 42px;
         margin: 20px;
         position: relative;
         color: rgba(000, 000, 000, 0.2);
+
+        @media (--viewport-sm-min) {
+            font-size: 65px;
+            line-height: 82px;            
+        }        
     }
 
     &__sub-heading {
@@ -77,10 +85,6 @@
         line-height: 40px;
         margin-top: 30px;
         max-width: 80%;
-
-        @media (--viewport-xs-max) {
-            margin-left: 50px;
-        }
     }
 
     &__button {
