@@ -3,9 +3,9 @@
  */
 
 :root{
-    --box-background-color: var(--color-white);
+    --box-background-color: var(--color-black);
     --box-border-radius: 4px;
-    --box-content-opacity: 25%;
+    --box-content-opacity: 85%;
     --box-min-height: 300px;
     --box-padding: 20px;
     --box-paragraph-spacing-top: 15px;
@@ -13,6 +13,7 @@
 }
 
 .box-image {
+    color: var(--color-white);
     position: relative;
     width: 100%;
     box-shadow: var(--box-shadow);
@@ -25,8 +26,14 @@
         border-radius: var(--box-border-radius);
     }
 
+    &__heading {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
     &__content {
         background-color: color(var(--box-background-color) alpha(var(--box-content-opacity)));
+        border-radius: 0 0 var(--box-border-radius) var(--box-border-radius);
         bottom: 0;
         left: 0;
         padding: var(--box-padding);
@@ -34,6 +41,7 @@
         right: 0;
     }
 
+    &__heading + p,
     p + p {
         margin-top: var(--box-paragraph-spacing-top);
     }

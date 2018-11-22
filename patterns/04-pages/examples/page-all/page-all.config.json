@@ -8,12 +8,12 @@
 				"main": "Scroll down and take<br>a look at the examples.",
 				"sub": "Disclaimer: This is not a complete framework, but a clean boilerplate with a few examples that you can build upon."
 			}
-		},	
+		},
 		"aboutBoxes": {
 			"text": "About boxes"
 		},
 		"aboutBoxesParagraph": {
-			"text": "This is an <i>organism</i> using the <a href=\"text-box--centered\"><b>text-box--centered</b></a> <i>molecule</i>."
+			"text": "This is an <i>organism</i> using the <a href=\"text-box\"><b>text-box</b></a> <i>molecule</i>."
 		},
 		"primaryBoxes": {
 			"text": "Primary boxes"
@@ -26,6 +26,6 @@
 		},
 		"listPageParagraph": {
 			"text": "Another <i>organism</i> using the <a href=\"list-page-item--card\"><b>list-page-item--card</b></a> <i>molecule</i>."
-		}								
+		}
     }
 }

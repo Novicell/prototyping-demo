@@ -3,26 +3,30 @@
 </section>
 <section>
     <div class="container">
-        <section>
-            {{render '@intro-box' }}
-        </section>        
-        <section>
-            {{> '@heading-page' aboutBoxes }}
-            <hr>
-            {{> '@paragraph' aboutBoxesParagraph }}
-            {{render '@about-boxes' }}
-        </section>
-        <section>
-            {{> '@heading-page' primaryBoxes }}
-            <hr>
-            {{> '@paragraph' primaryBoxesParagraph }}
-            {{render '@primary-boxes' }}
-        </section>
-        <section>
-            {{> '@heading-page' listPage }}
-            <hr>
-            {{> '@paragraph' listPageParagraph }}
-            {{render '@list-page' }}
-        </section>
-    </div>    
+        {{render '@intro-box' }}
+    </div>
+</section>
+<section>
+    <div class="container">
+        {{> '@heading-page' aboutBoxes }}
+        <hr>
+        {{> '@paragraph' aboutBoxesParagraph }}
+    </div>
+    {{render '@about-boxes' }}
+</section>
+<section>
+    <div class="container">
+        {{> '@heading-page' primaryBoxes }}
+        <hr>
+        {{> '@paragraph' primaryBoxesParagraph }}
+    </div>
+    {{render '@primary-boxes' }}
+</section>
+<section>
+    <div class="container">
+        {{> '@heading-page' listPage }}
+        <hr>
+        {{> '@paragraph' listPageParagraph }}
+    </div>
+    {{render '@list-page' }}
 </section>

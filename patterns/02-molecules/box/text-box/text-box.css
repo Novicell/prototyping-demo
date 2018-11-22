@@ -14,11 +14,11 @@
     &__heading {
         font-size: 30px;
         margin-bottom: 20px;
-        margin-top: 0;        
+        margin-top: 0;
 
         @media (--viewport-sm-min) {
-            font-size: 50px;
-        }        
+            font-size: 40px;
+        }
     }
 
     p + p {
@@ -28,9 +28,4 @@
     &--centered {
         text-align: center;
     }
-
-    &__inner {
-        padding: var(--text-box-padding);
-    }
 }
-
