@@ -11,6 +11,16 @@
 }
 
 .text-box {
+    &__heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 0;        
+
+        @media (--viewport-sm-min) {
+            font-size: 50px;
+        }        
+    }
+
     p + p {
         margin-top: var(--text-box-paragraph-spacing-top);
     }

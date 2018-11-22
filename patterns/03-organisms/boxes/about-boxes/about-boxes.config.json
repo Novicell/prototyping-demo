@@ -6,19 +6,34 @@
             "heading": {
                 "text": "Atomic design"
             },
-            "textBoxContent": "The Pattern Library is based on the Atomic Design method by Brad Frost."
+            "text": "The Pattern Library is based on the Atomic Design method by Brad Frost.",
+            "link": {
+                "url": "/",
+                "text": "Link text",
+                "title": "Link title"                
+            }
         },
         "textbox2": {
             "heading": {
                 "text": "Frontend Package"
             },
-            "textBoxContent": "Build using our own tools and best practices for building websites."
+            "text": "Build using our own tools and best practices for building websites.",
+            "link": {
+                "url": "/",
+                "text": "Link text",
+                "title": "Link title"                
+            }
         },
         "textbox3": {
             "heading": {
                 "text": "Pattern Library tool"
             },
-            "textBoxContent": "The Pattern Library is build using Clearlefts tool Fractal."
+            "text": "The Pattern Library is build using Clearlefts tool Fractal.",
+            "link": {
+                "url": "/",
+                "text": "Link text",
+                "title": "Link title"                
+            }            
         }
     }
 }

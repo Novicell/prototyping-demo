@@ -4,21 +4,38 @@
 
 /*Setting document variables*/
 :root{
-	--link-color: var(--color-primary);
+	--link-color: var(--color-secondary);
 	--link-font-family: var(--base-font-family);
 }
 
 /*Link style*/
-.link {
+.link,
+a.link {
     font-family: var(--link-font-family);
+    line-height: 30px;
+    position: relative;
 
     &[href] {
         color: var(--link-color);
+        font-weight: 800;
+        text-decoration: none;
     }
 
-    &:hover,
-    &:focus {
-        color: shade(var(--link-color), 10%);
-        outline: none;
+    &[href]:hover,
+    &[href]:focus {
+        &:after {
+            width: 100%;
+        }   
+    }
+
+    &:after {
+        background-color: var(--color-berry);
+        bottom: -10px;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        transition: width .5s;
+        width: 35px;
     }
 }
