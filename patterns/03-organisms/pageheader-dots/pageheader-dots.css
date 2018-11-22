@@ -34,9 +34,6 @@
         display: flex;
         align-items: center;
         padding: var(--pageheader-dots-padding);
-
-        @media (--viewport-xs-min) {
-        }
     }
 
     &__container {
