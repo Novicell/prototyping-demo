@@ -1,6 +1,6 @@
 {
 	"title": "Pageheader - dots",
-	"status": "Ready",
+	"status": "ready",
 	"context": {
 		"pageHeader": {
 			"top": "Pageheader",
