@@ -14,13 +14,13 @@ const layouts = require('handlebars-layouts');
 const novicellTheme = require('@frctl/mandelbrot')({
     styles: [
         'default',
-        "/fractal/novicell-fractal-styles.css"        
+        "/fractal/novicell-fractal-styles.css"
     ],
     "panels": ["html", "view", "context", "resources", "info"]
 });
 
-novicellTheme.addStatic(__dirname, 'fractal'); 
-novicellTheme.addStatic(path.join(__dirname, '../' + config.webPath + 'dist'), 'dist'); 
+novicellTheme.addStatic(__dirname, 'fractal');
+novicellTheme.addStatic(path.join(__dirname, '../' + config.webPath + 'dist'), 'dist');
 
 //Helpers
 instance.handlebars.registerHelper('times', function(n, block) {
@@ -46,7 +46,7 @@ instance.handlebars.registerHelper('compare', function(lvalue, rvalue, options) 
         throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
 
     var operator = options.hash.operator || "==";
-    
+
     var operators = {
         '==':		function(l,r) { return l == r; },
         '===':	function(l,r) { return l === r; },
@@ -83,7 +83,7 @@ fractal.components.set('path', config.projectPath + 'patterns');
 fractal.docs.set('path', config.projectPath + 'documentation');
 fractal.docs.set('default.preview', '@preview');
 fractal.docs.set('ext', '.hbs');
-fractal.docs.set('indexLabel', 'Welcome to Novicells prototyping demo');
+fractal.docs.set('indexLabel', 'Novicell prototyping demo');
 
 // Web UI config
 fractal.web.theme(novicellTheme);

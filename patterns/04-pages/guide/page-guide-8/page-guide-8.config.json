@@ -5,7 +5,7 @@
     "pageHeader": {
       "top": "8/8",
       "main": "Congratulations!",
-      "sub": "Your site is now live and your ready to start prototyping and learn Atomic Design.<br><br>Got input or questions? Reach out on <a href=\"https://github.com/Novicell/prototyping-demo\" target\"_blank\">Github</a>."
+      "sub": "Your site is now live and your ready to start prototyping and learn Atomic Design.<br>If you have questions, suggestions or need help, go to <a href=\"https://github.com/Novicell/prototyping-demo\" target=\"_blank\">Github repo</a> and submit an issue or reach out at <a href=\"mailto:bsj@novicell.dk\">bsj@novicell.dk</a>"
     },
     "previousButton": {
       "url": "/components/preview/page-guide-7",
@@ -16,6 +16,6 @@
       "url": "/components/preview/page-all",
       "title": "See examples",
       "text": "See examples"
-    }    
+    }
   }
 }

@@ -7,8 +7,7 @@
     --pageheader-color: var(--color-white);
 }
 
-.paragraph {
-    margin-top: 0;
-    margin-bottom: 15px;
+.paragraph + .paragraph {
+    margin-top: 20px;
 }
 
