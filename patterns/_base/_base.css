@@ -2,7 +2,8 @@
  * Base
  */
  :root{
-    --site-background-color: var(--site-background-color, #fff)
+    --site-background-color: var(--site-background-color, #fff);
+    --base-section-margin: 60px;
  }
 
 /* Box sizing */
@@ -80,4 +81,8 @@ code {
     margin-left: 4px;
     margin-right: 4px;
     padding: 8px 10px 10px;
+}
+
+section + section {
+    margin-top: var(--base-section-margin);
 }
