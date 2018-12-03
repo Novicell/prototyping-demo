@@ -32,7 +32,7 @@
 
     @media (--viewport-md-min) {
         display: inline-block;
-    }    
+    }
 }
 
 /* Add spacing between buttons if they are next to each other */
@@ -53,6 +53,7 @@
     border: 1px solid transparent;
 
     &[href] {
+        border: 2px solid var(--link-button-color-primary);
         color: var(--link-button-color-white);
         text-decoration: none;
     }
