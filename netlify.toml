@@ -16,8 +16,8 @@
 # PER-DEPLOY.
 
 [[redirects]]
-  from = "https://prototyping-demo.netlify.com/*"
-  to = "https://prototyping.novicell.io/:splat"
+  from = "prototyping-demo.netlify.com/*"
+  to = "prototyping.novicell.io/:splat"
 
   # The default HTTP status code is 301, but you can define a different one.
   status = 301
