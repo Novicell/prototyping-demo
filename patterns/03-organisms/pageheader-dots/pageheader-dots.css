@@ -51,7 +51,7 @@
         color: var(--color-white);
         font-family: var(--heading-font-family);
         flex: 1 1 auto;
-        word-break: break-all;
+        width: var(--pageheader-dots-width);
     }
 
     &__top-heading {
